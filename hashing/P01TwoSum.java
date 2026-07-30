@@ -14,14 +14,20 @@
 /*
 Intuition
 
+The goal is to find two numbers whose sum equals the target.
 
+Instead of checking every possible pair, we can keep track of the numbers we
+have already processed. For each number, calculate the required complement and
+check whether it has already been seen.
 */
 
 /*
 Approach 1
 Brute Force
 
+Check every possible pair of elements in the array.
 
+If the sum of a pair equals the target, return their indices.
 
 Time: O(n²)
 Space: O(1)
@@ -31,7 +37,12 @@ Space: O(1)
 Approach 2
 Optimal
 
+Use a HashMap to store each number and its index while traversing the array.
 
+For each element, calculate the required complement. If the complement already
+exists in the HashMap, return the stored index and the current index.
+
+Otherwise, store the current number and its index in the HashMap and continue.
 
 Time: O(n)
 Space: O(n)
