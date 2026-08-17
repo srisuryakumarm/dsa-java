@@ -69,7 +69,7 @@ public class P75SortColors {
     // int index = 0;
     // for(int color = 0; color < 3; color++){
     //     for(int i = 0;i < color[count]; i++){
-    //         nums[index++] = ;
+    //         nums[index++] = color;
     //     }
     // }
 

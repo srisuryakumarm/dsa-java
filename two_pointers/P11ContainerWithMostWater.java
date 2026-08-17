@@ -60,13 +60,10 @@ public class P11ContainerWithMostWater {
 
     // Brute Force
     public int maxAreaBrute(int[] height) {
-        int left = 0, right = height.length - 1, area = 0;
-        while (left < right) {
-            area = Math.max(area, Math.min(height[left], height[right])* (right - left));
-            if (height[left] < height[right]) {
-                left++;
-            } else {
-                right--;
+        int area = 0;
+        for (int i = 0; i < height.length; i++) {
+            for (int j = i + 1; j < height.length; j++) {
+                area = Math.max(area, Math.min(height[i], height[j]) * (j - i));
             }
         }
         return area;
