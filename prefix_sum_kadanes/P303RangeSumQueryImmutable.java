@@ -41,7 +41,7 @@ Time: O(1)
 Space: O(1)
 */
 
-package prefix_sum&kadanes;
+package prefix_sum_kadanes;
 
 public class P303RangeSumQueryImmutable {
     class NumArray {

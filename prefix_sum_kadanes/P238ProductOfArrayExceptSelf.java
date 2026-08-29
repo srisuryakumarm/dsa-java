@@ -46,7 +46,7 @@ Time: O(n)
 Space: O(1) - Excluding the output array
 */
 
-package prefix_sum&kadanes;
+package prefix_sum_kadanes;
 
 public class P238ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
