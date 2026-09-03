@@ -47,7 +47,7 @@ Time: O(n log n)
 Space: O(n)
 */
 
-package intervals;
+package greedy_intervals;
 
 public class P56MergeIntervals {
     public int[][] merge(int[][] intervals) {

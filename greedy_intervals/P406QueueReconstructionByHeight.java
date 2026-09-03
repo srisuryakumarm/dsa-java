@@ -48,7 +48,7 @@ Time: O(n²)
 Space: O(n)
 */
 
-package greedy;
+package greedy_intervals;
 
 public class P406QueueReconstructionByHeight {
     public int[][] reconstructQueue(int[][] people) {

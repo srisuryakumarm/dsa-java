@@ -47,7 +47,7 @@ Time: O(n)
 Space: O(n)
 */
 
-package intervals;
+package greedy_intervals;
 
 public class P57InsertInterval {
     public int[][] insert(int[][] intervals, int[] newInterval) {

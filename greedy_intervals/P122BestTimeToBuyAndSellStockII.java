@@ -41,7 +41,7 @@ Time: O(n)
 Space: O(1)
 */
 
-package greedy;
+package greedy_intervals;
 
 public class P122BestTimeToBuyAndSellStockII {
 

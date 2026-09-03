@@ -71,7 +71,7 @@ Time: O(n)
 Space: O(1)
 */
 
-package greedy;
+package greedy_intervals;
 
 public class P134GasStation {
     // Brute Force
